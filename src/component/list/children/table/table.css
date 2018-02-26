@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Table__container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.Table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #4c4c4c;
+}
+.Table__head-row {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  border-bottom: 2px solid #eeeeee;
+  margin-right: 20px;
+}
+.Table__body {
+  overflow-y: scroll;
+}
+.Table__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Table__row:hover {
+  background-color: #efefef;
+}
+.Table__cell {
+  padding: 10px 20px;
+  text-align: left;
+  flex: 1 1 33%;
+}
+.Table__cell img{
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+}
